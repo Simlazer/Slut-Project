@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(40,40,40);
+    font-family: Calibri, sans-serif;
+
+}
+p {
+    color: white;
+    margin-left: 13%;
+}
+img {
+    margin-left: 13%;
+}
+a {    
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    background-color: rgb(20, 20, 20);
+    height: 900px;
+    position: fixed;
+    overflow: auto;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1 {
+    color: white;
+}
