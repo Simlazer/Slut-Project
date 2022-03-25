@@ -4,31 +4,40 @@
     <meta charset = "utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link href = "css/allas.css" rel="stylesheet" type="text/css" />
+    <link href = "css/styling.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header>
-        <h1>A few gaming tips</h1>
+    <header><div id="title">
+        <h1>A Few Gaming Tips</h1>
+        <button type="button" onclick="lightOn()" id="button"> 
+            Light Mode
+        </button>
+        </div>
     </header>
     <header class="central_meny">
-    <ul class="meny">
-        <li><a href="index.html" id="li1"><div class="text_li">COMPUTER PARTS</div></a></li>
-        <li><a href="accessories.html" id="li2"><div class="text_li">ACCESSORIES</div></a></li>
-        <li><a href="recommendations.html" id="li3"><div class="text_li">RECOMMENDATIONS</div></a></li>
-        <li><a href="multi.html" id="li4"><div class="text_li">MULTIPLAYER GAMES</div></a></li>
-        <li><a href="solo.html" id="li5"><div class="text_li">SOLO GAMES</div></a></li>
-    </ul>
+        <div class="dropdown">
+    <button onclick="dropdown_function()" class="meny">...</button>
+    <div id="dropdown" class="dropdown_content">
+        <a href="index.html" id="li1"><div class="text_li">COMPUTER PARTS</div></a>
+        <a href="accessories.html" id="li2"><div class="text_li">ACCESSORIES</div></a>
+        <a href="recommendations.html" id="li3"><div class="text_li">RECOMMENDATIONS</div></a>
+        <a href="multi.html" id="li4"><div class="text_li">MULTIPLAYER GAMES</div></a>
+        <a href="solo.html" id="li5"><div class="text_li">SOLO GAMES</div></a>
+    </div>
+</div>
+
 </header>
 <div class="main">
+    <h2 id="colorChange8">ACCESSORIES</h2>
 <div class="bild_1">
     <img src="img/razer_blackwidow.png" width="800px" alt="This is a picture of a Razer BlackWidow Tournament Edition Chroma V 2"/>
-    <p>  In the picture to the right we have a keyboard by Razer. Introducing the Razer BlackWidow Tournament Edition Chroma V2—the keyboard with the fastest performance we’ve ever produced. When you’re in the middle of an intense tournament match, every millisecond counts in trying to secure that winning edge over your opponent. With this keyboard, you can now make that a reality. (Razer 2022)
-    <br>Picture taken by: <a href="https://www2.razer.com/eu-en/store/razer-blackwidow-tournament-edition-chroma-v2-yellow">Razer</a></p> 
+    <p id="colorChange1">  In the picture to the left we have a keyboard by Razer. Introducing the Razer BlackWidow Tournament Edition Chroma V2—the keyboard with the fastest performance we’ve ever produced. When you’re in the middle of an intense tournament match, every millisecond counts in trying to secure that winning edge over your opponent. With this keyboard, you can now make that a reality. (Razer 2022)
+    <br>Picture taken by: <a href="https://www2.razer.com/eu-en/store/razer-blackwidow-tournament-edition-chroma-v2-yellow" id="colorChange6">Razer</a></p> 
     <br><br><br>
 </div>
 <div class="bild_1">
     <img src="img/logitech_hyperion.png" width="400px" alt="This os a picture of a Logitech G402 Hyperion mouse."/>
-    <p>  In the picture to the right we have a mouse made by Logitech. Responsiveness:USB data format: 16 bits/axis USB report rate: 1000 Hz (1ms) Microprocessor: 32-bit.
+    <p id="colorChange2">  In the picture to the left we have a mouse made by Logitech. Responsiveness:USB data format: 16 bits/axis USB report rate: 1000 Hz (1ms) Microprocessor: 32-bit.
         Fusion Engine hybrid sensor,8 programmable buttons,On-the-fly DPI Switching,32-bit ARM processor,1 millisecond report,High-speed clicking,Full-speed USB.
         4 on-the-fly DPI settings,Tracking Resolution: 240-4000 dpi Max. acceleration: >16G* Max. speed: >500 ips*.
         Glide:Dynamic coefficient of friction -: .09 µ (k)* Static coefficient of friction -: .14 µ (s)*.
@@ -38,20 +47,22 @@
         4 on-the-fly DPI settings: Shift instantly from pixel precise targeting to lightning fast maneuvers (250 to 4000 DPI).
         32-bit Arm Processor: Powers incredible tracking speeds; allows you to save and playback your macros.
         Lightweight, streamlined design: Optimal weight, shape and feel for absolute gaming comfort and fast, furious swipes. (Amazon 2022)
-    <br>Picture taken by: <a href="https://www.logitechg.com/sv-se/products/gaming-mice/g402-hyperion-fury-fps-gaming-mouse.html">Logitech</a></p> 
+    <br>Picture taken by: <a href="https://www.logitechg.com/sv-se/products/gaming-mice/g402-hyperion-fury-fps-gaming-mouse.html" id="colorChange7">Logitech</a></p> 
     <br><br><br>
 </div>
 <div class="bild_1">
     <img src="img/steelseries_artic_7.png" width="1000px" alt="This is a picture of Steel Series Arctis 7"/>
-    <p>  In the picture to the right we have a headset created by Steel Series. Lossless 2.4 GHz wireless audio designed for low latency gaming.
+    <p id="colorChange3">  In the picture to the left we have a headset created by Steel Series. Lossless 2.4 GHz wireless audio designed for low latency gaming.
         Best mic in gaming: the Discord-certified ClearCast bidirectional microphone.
         Hear stunning detail in all games with award-winning Arctis sound.
         Next-generation DTS Headphone:X v2.0 surround sound.
         24-hour battery life outlasts even your longest gaming sessions.
-    <br>Picture taken by: <a href="https://sv.steelseries.com/gaming-headsets/arctis-7">Steel Series</a></p> 
+    <br>Picture taken by: <a href="https://sv.steelseries.com/gaming-headsets/arctis-7" id="colorChange5">Steel Series</a></p> 
     <br><br><br>
 </div><br>
-    <p>Razer(2022) Razer BlackWidow Tournament Edition Chroma V2. https://www.razer.com/gaming-keyboards/razer-blackwidow-tournament-edition-chroma-v2/RZ03-02190700-R3M1. {2022-03-25}</p>
-<p>Amazon(2022) Logitech G402 Hyperion Fury FPS Gaming Mouse. https://www.amazon.com/Logitech-G402-Hyperion-Gaming-Mouse/dp/B00LZVNWIA. {2022-03-25}</p>
+    <p id="colorChange4">Razer(2022) Razer BlackWidow Tournament Edition Chroma V2. https://www.razer.com/gaming-keyboards/razer-blackwidow-tournament-edition-chroma-v2/RZ03-02190700-R3M1. {2022-03-25}<br>
+Amazon(2022) Logitech G402 Hyperion Fury FPS Gaming Mouse. https://www.amazon.com/Logitech-G402-Hyperion-Gaming-Mouse/dp/B00LZVNWIA. {2022-03-25}<br>
+Steelseries(2022) Arctis 7. https://sv.steelseries.com/gaming-headsets/arctis-7. {2022-03-25}</p>
 </div>
+<script src="js/domjs.js"></script>
 </body>

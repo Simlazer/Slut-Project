@@ -4,54 +4,59 @@
     <meta charset = "utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link href = "css/allas.css" rel="stylesheet" type="text/css" />
+    <link href = "css/styling.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <header>
-        <h1>A few gaming tips</h1>
+        <div id="title">
+            <h1>A Few Gaming Tips</h1>
+            <button type="button" onclick="lightOn()" id="button"> 
+                Light Mode
+            </button>
+            </div>
     </header>
     <header class="central_meny">
-    <ul class="meny">
-        <li><a href="index.html" id="li1"><div class="text_li">COMPUTER PARTS</div></a></li>
-        <li><a href="accessories.html" id="li2"><div class="text_li">ACCESSORIES</div></a></li>
-        <li><a href="recommendations.html" id="li3"><div class="text_li">RECOMMENDATIONS</div></a></li>
-        <li><a href="multi.html" id="li4"><div class="text_li">MULTIPLAYER GAMES</div></a></li>
-        <li><a href="solo.html" id="li5"><div class="text_li">SOLO GAMES</div></a></li>
-    </ul>
+        <div class="dropdown">
+            <button onclick="dropdown_function()" class="meny">...</button>
+            <div id="dropdown" class="dropdown_content">
+                <a href="index.html" id="li1"><div class="text_li">COMPUTER PARTS</div></a>
+                <a href="accessories.html" id="li2"><div class="text_li">ACCESSORIES</div></a>
+                <a href="recommendations.html" id="li3"><div class="text_li">RECOMMENDATIONS</div></a>
+                <a href="multi.html" id="li4"><div class="text_li">MULTIPLAYER GAMES</div></a>
+                <a href="solo.html" id="li5"><div class="text_li">SOLO GAMES</div></a>
+            </div>
+        </div>
 </header>
 <div class="main">
+    <h2 id="colorChange8">MULTIPLAYER GAMES</h2>
 <div class="bild_2">
-    <img src="img/hades.jpg" width=""/>
-    <p>  Picture taken by: <a href="https://www.deviantart.com/karimelsayed69/art/Hades-banner-893208650">karimelsayed69</a><br>
-        Hades is a roguelike action dungeon crawler video game developed and published by Supergiant Games. It was released for Microsoft Windows, macOS, and Nintendo Switch in September 2020, which followed an early access release in December 2018. It was later released for PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S in August 2021.
-
-        Players control Zagreus, the son of Hades, as he attempts to escape from the Underworld to reach Mount Olympus, at times aided by gifts bestowed on him from the other Olympians. Each run challenges the player through a random series of rooms populated with enemies and rewards. The game has a hack and slash combat system; the player uses a combination of their main weapon attack, a special attack, a dash ability, and a magic ability to defeat them while avoiding damage to progress as far as possible. While Zagreus will often die, the player can use gained treasure to improve certain attributes or unlock new weapons and abilities to improve chances of escaping on subsequent runs.
-        
-        Hades was developed following Supergiant's Pyre, a game in which they wanted to explore procedural narrative storytelling, but due to the nature of the main gameplay, found that players did not play through Pyre multiple times to explore this. The roguelike structure of Hades gave them the opportunity to tell these branching stories to the player over the course of multiple runs.
-        
-        A commercial and critical success, Hades received universal acclaim for its gameplay, art direction, music, narrative and characters and sold over one million copies. It was named game of the year from several award ceremonies and media publications. (Wikipedia 2022)</p> 
+    <img src="img/valorant.jpg" alt="This is a banner of the video game Valorant"/>
+    <p id="colorChange1">  Picture taken by: <a href="https://www.distractify.com/p/how-to-get-pride-banners-valorant" id="colorChange2">Distractify</a><br>
+        Valorant (stylized as VALORANT) is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by an official release on June 2, 2020. The development of the game started in 2014. Valorant takes inspiration from the Counter-Strike series of tactical shooters, borrowing several mechanics such as the buy menu, spray patterns, and inaccuracy while moving. (Wikipedia 2022)</p> 
     <br><br><br>
 </div><br>
 <div class="bild_2">
-    <img src="img/dead_cells.jpg" width=""/>
-    <p> Picture taken by: <a href="https://knowyourmeme.com/photos/1399742-dead-cells">Know Your Meme</a>
-    <br>Dead Cells is a roguelike video game with Metroidvania and soulslike elements, developed and published by Motion Twin. After a year in early access, Dead Cells was released for Linux, macOS, Microsoft Windows, Nintendo Switch, PlayStation 4, and Xbox One on August 7, 2018. A mobile port for iOS was released on August 28, 2019 and an Android port was released on June 3, 2020. The game was inspired by Metroidvania games, The Binding of Isaac, and the Souls series.
+    <img src="img/it_takes_two_banner.jpg" alt="This is a banner of the video game It Takes Two"/>
+    <p id="colorChange3"> Picture taken by: <a href="https://www.gamepitt.co.uk/it-takes-two-ps5-review/s" id="colorChange4">Game Pitt</a>
+    <br>It Takes Two is an action-adventure platform game developed by Hazelight Studios and published by Electronic Arts. The game was released for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S in March 2021. Like Hazelight's debut title A Way Out, the game does not have a single-player option; it is playable only in either online or local split screen cooperative multiplayer between two players.
 
-    In the game, the player takes the role of an amorphous creature puppeteering a decapitated corpse in a dungeon, through which they must fight their way out. The player gains various weapons, treasure and other tools through exploration of the procedurally-generated levels to fight undead creatures within it. At times, the player gains "cells", a type of in-game currency that can be used to purchase permanent upgrades or unlock items. Dead Cells uses a permadeath system, causing the player to lose all cells and other currencies and items upon each instance of death. (Wikipedia 2022)</p> 
+    It Takes Two received generally favorable reviews from critics and won multiple year-end accolades, including the Game of the Year at The Game Awards 2021 and the 25th Annual D.I.C.E. Awards. The game was a commercial success, selling more than 5 million copies by February 2022. (Wikipedia 2022)</p> 
     <br><br><br>
 </div>
 <div class="bild_2">
-    <img src="img/dying_light.jpg" width=""/>
-    <p>  Picture taken by: <a href="https://guides.gamepressure.com/dyinglight/guide.asp?ID=29294">Game Guides gamepressure</a><br>
-        Dying Light is a 2015 survival horror video game developed by Techland and published by Warner Bros. Interactive Entertainment. The game's story follows an undercover agent named Kyle Crane who is sent to infiltrate a quarantine zone in a Middle-eastern city called Harran. It features an enemy-infested, open-world city with a dynamic day–night cycle, in which zombies are slow and clumsy during daytime but become extremely aggressive at night. The gameplay is focused on weapons-based combat and parkour, allowing players to choose fight or flight when presented with dangers. The game also features an asymmetrical multiplayer mode (originally set to be a pre-order bonus), and a four-player co-operative multiplayer mode.
+    <img src="img/league_of_legends.jpg" alt="This is a banner of the video game League of Legends"/>
+    <p id="colorChange5">  Picture taken by: <a href="https://armandodalessandro.wordpress.com/tag/league-of-legends/" id="colorChange6">Armando D'Alessandro</a><br>
+        League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, the game has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.
 
-        The development of the game began in early 2012, after the team completed the development of Dead Island. The game's parkour system puts emphasis on natural movement. To implement that, Techland had to abandon most of the story elements and construct them again from scratch. To create a story that would suit the taste of the American audience, the writing team collaborated with Dan Jolley. The story was inspired by both Heart of Darkness and The Plague. Announced in May 2013, it was released in January 2015 for Microsoft Windows, Linux, PlayStation 4, and Xbox One. The game was planned to be released on PlayStation 3 and Xbox 360, but these versions were cancelled due to hardware limitations.
-        
-        At release, Dying Light received positive reviews from critics, with praise mainly directed at the combat, graphics, co-operative multiplayer, navigation and the day–night cycle, while receiving criticism regarding the story, difficulty, and technical issues. The game was the best-selling title of January 2015 and broke the record for first-month sales of a new survival-horror intellectual property. The game was a commercial success, amassing more than 17 million players by the end of 2019. Techland committed to supporting the game, and released downloadable content packs, content drops and free updates for the game several years after the initial launch. An expansion, titled Dying Light: The Following, was released in February 2016. The sequel, Dying Light 2 Stay Human, was released in February 2022. (Wikipedia 2022)</p> 
+In the game, two teams of five players battle in player versus player combat, each team occupying and defending their half of the map. Each of the ten players controls a character, known as a "champion", with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team. In the game's main mode, Summoner's Rift, a team wins by pushing through to the enemy base and destroying their "Nexus", a large structure located within.
+
+League of Legends received generally positive reviews; critics highlighted its accessibility, character designs, and production value. The game's long lifespan has resulted in a critical reappraisal, with reviews trending positively; the negative and abusive in-game behavior of its players, criticized since early in the game's lifetime, persists despite Riot's attempts to fix the problem. In 2019, the game regularly peaked at eight million concurrent players, and its popularity has led to tie-ins such as music videos, comic books, short stories, and an animated series, Arcane. Its success has also spawned several spin-off video games, including a mobile version, a digital collectible card game and a turn-based role-playing game, among others. A massively multiplayer online role-playing game based on the property is in development.
+
+Regularly cited as the world's largest esport, the game has an international competitive scene consisting of 12 leagues. These domestic leagues culminate in the annual League of Legends World Championship. The 2019 event registered over 100 million unique viewers, peaking at a concurrent viewership of 44 million. Domestic and international events have been broadcast on livestreaming websites such as Twitch, YouTube, Bilibili, and on cable television sports channel ESPN. (Wikipedia 2022)</p> 
     <br><br><br>
 </div>
-    <p>Wikipedia(2022) Hades (video game). https://en.wikipedia.org/wiki/Hades_(video_game). {2022-03-25}</p>
-<p>Wikipedia(2022) Dead Cells. https://en.wikipedia.org/wiki/Dead_Cells. {2022-03-25}</p>
-<p>Wikipedia(2022) Dying Light. https://en.wikipedia.org/wiki/Dying_Light. {2022-03-25}</p>
+    <p id="colorChange7">Wikipedia(2022) Valorant. https://en.wikipedia.org/wiki/Valorant. {2022-03-25}<br>
+Wikipedia(2022) It Takes Two (video game). https://en.wikipedia.org/wiki/It_Takes_Two_(video_game). {2022-03-25}<br>Wikipedia(2022) League of Legends. https://en.wikipedia.org/wiki/League_of_Legends. {2022-03-25}</p>
 </div>
+<script src="js/domjs.js"></script>
 </body>
