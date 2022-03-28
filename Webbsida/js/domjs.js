@@ -15,6 +15,9 @@ function lightOn() {
                 document.getElementById("colorChange6").style.color = "black";
                 document.getElementById("colorChange7").style.color = "black";
                 document.getElementById("colorChange8").style.color = "black";
+                document.getElementById("colorChange9").style.color = "black";
+                document.getElementById("colorChange10").style.color = "black";
+                document.getElementById("colorChange11").style.color = "black";
             }  
             else {
                 document.body.style.background = "rgb(40, 40, 40)";
@@ -32,6 +35,9 @@ function lightOn() {
                 document.getElementById("colorChange6").style.color = "white";
                 document.getElementById("colorChange7").style.color = "white";
                 document.getElementById("colorChange8").style.color = "white";
+                document.getElementById("colorChange9").style.color = "white";
+                document.getElementById("colorChange10").style.color = "white";
+                document.getElementById("colorChange11").style.color = "white";
             }
 }
 function dropdown_function() {
@@ -50,6 +56,9 @@ function dropdown_function() {
       document.getElementById("colorChange6").style.color = "rgb(100, 100, 100)";
       document.getElementById("colorChange7").style.color = "rgb(100, 100, 100)";
       document.getElementById("colorChange8").style.color = "rgb(100, 100, 100)";
+      document.getElementById("colorChange9").style.color = "rgb(100, 100, 100)";
+      document.getElementById("colorChange10").style.color = "rgb(100, 100, 100)";
+      document.getElementById("colorChange11").style.color = "rgb(100, 100, 100)";
       }
   else {
       document.body.style.background = "rgb(100, 100, 100)";
@@ -63,7 +72,11 @@ function dropdown_function() {
       document.getElementById("colorChange6").style.color = "black";
       document.getElementById("colorChange7").style.color = "black";
       document.getElementById("colorChange8").style.color = "black";
-  }
+      document.getElementById("colorChange9").style.color = "black";
+      document.getElementById("colorChange10").style.color = "black";
+      document.getElementById("colorChange11").style.color = "black";
+  }  
+  
 }
   else {
     document.body.style.background = "white";
@@ -77,8 +90,13 @@ function dropdown_function() {
     document.getElementById("colorChange6").style.color = "black";
     document.getElementById("colorChange7").style.color = "black";
     document.getElementById("colorChange8").style.color = "black";
+    document.getElementById("colorChange9").style.color = "black";
+    document.getElementById("colorChange10").style.color = "black";
+    document.getElementById("colorChange11").style.color = "black";
+}  
 } 
-    } 
+
+    
 else {
     document.body.style.background = "rgb(40, 40, 40)";
     document.getElementById("gaming_tips").style.color = "white";
@@ -91,8 +109,11 @@ else {
     document.getElementById("colorChange6").style.color = "white";
     document.getElementById("colorChange7").style.color = "white";
     document.getElementById("colorChange8").style.color = "white";
+    document.getElementById("colorChange9").style.color = "white";
+    document.getElementById("colorChange10").style.color = "white";
+    document.getElementById("colorChange11").style.color = "white";
 }
-  }
+  
   window.onclick = function(event) {
     if (!event.target.matches('.meny')) {
       var dropdowns = document.getElementsByClassName("dropdown_content");
@@ -113,7 +134,11 @@ else {
             document.getElementById("colorChange6").style.color = "black";
             document.getElementById("colorChange7").style.color = "black";
             document.getElementById("colorChange8").style.color = "black";
+            document.getElementById("colorChange9").style.color = "black";
+            document.getElementById("colorChange10").style.color = "black";
+            document.getElementById("colorChange11").style.color = "black";
         }  
+        
         else {
             document.body.style.background = "rgb(40, 40, 40)";
             document.getElementById("gaming_tips").style.color = "white";
@@ -126,8 +151,12 @@ else {
             document.getElementById("colorChange6").style.color = "white";
             document.getElementById("colorChange7").style.color = "white";
             document.getElementById("colorChange8").style.color = "white";
+            document.getElementById("colorChange9").style.color = "white";
+            document.getElementById("colorChange10").style.color = "white";
+            document.getElementById("colorChange11").style.color = "white";
         }
         }
       }
     }
   }
+}
