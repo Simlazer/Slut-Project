@@ -1,6 +1,9 @@
 function lightOn() {
     if (document.body.style.background !== "white") {
                 document.body.style.background = "white";
+                document.getElementById("button").innerHTML = "Dark Mode";
+                document.getElementById("button").style.color = "black";
+                document.getElementById("button").style.background = "white";
                 document.getElementById("li1").style.color = "black";
                 document.getElementById("li2").style.color = "black";
                 document.getElementById("li3").style.color = "black";
@@ -21,6 +24,9 @@ function lightOn() {
             }  
             else {
                 document.body.style.background = "rgb(40, 40, 40)";
+                document.getElementById("button").innerHTML = "Light Mode";
+                document.getElementById("button").style.color = "white";
+                document.getElementById("button").style.background = "rgb(50, 50, 50)";
                 document.getElementById("li1").style.color = "rgb(255,70,50)";
                 document.getElementById("li2").style.color = "rgb(255,200,60)";
                 document.getElementById("li3").style.color = "rgb(255,255,60";
